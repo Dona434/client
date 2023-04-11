@@ -1,0 +1,71 @@
+.allcontainer{
+   margin-left: 5rem;
+   margin-right: 5rem;
+}
+.heading{
+    font-family: Arial;
+    // margin-left: 50px;
+    margin-bottom: 10px;
+}
+.reclists{
+  //margin-left:30rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.reclists td,
+.reclists th {
+  border: 1px solid gold;
+  padding: 10px;
+}
+
+.button{
+    margin-left:40rem;
+    border: none;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.watermark {
+  /* Used to position the watermark */
+  position: relative;
+}
+
+.watermark__inner {
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Absolute position */
+  left: 0px;
+  position: absolute;
+  top: 40px;
+
+  /* Take full size */
+  height: 100%;
+  width: 100%;
+}
+
+.watermark__body {
+  /* Text color */
+  color: rgba(0, 0, 0, 0.2);
+
+  /* Text styles */
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  /* Rotate the text */
+  transform: rotate(-45deg);
+
+  /* Disable the selection */
+  user-select: none;
+}

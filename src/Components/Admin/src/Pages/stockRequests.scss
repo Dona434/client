@@ -1,0 +1,58 @@
+.stocks {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 400px;
+  }
+  
+  .stocks td,
+  .stocks th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .stocks tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .stocks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #a9740e;
+    color: white;
+  }
+
+  .bttn1 {
+    text-decoration: none;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-weight: 1000;
+    display: inline-flex; 
+    align-items: flex-start;
+    font-size: medium;
+    padding: 8px;
+    background-color: #c4b532e5;
+    color: rgb(0, 0, 0);
+    &:hover {
+      background-color: #a9740e;
+      color: white;
+    }
+  }
+
+  .sendbtn{
+    margin-left: 12px;
+  }
+
+  .stockadded1{
+    color: green;
+    margin-left: 8rem;
+    margin-bottom: 10px;
+  }
+  .stocknotadded1{
+    color: red;
+    margin-left: 8rem;
+    margin-bottom: 10px;
+  }
+
+  
